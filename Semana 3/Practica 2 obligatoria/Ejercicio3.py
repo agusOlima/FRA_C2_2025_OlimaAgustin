@@ -12,9 +12,10 @@ acumulador_suma = 0
 for h in range(len(arreglos)):
     acumulador_suma = acumulador_suma + arreglos[h]
 
-def promedio (num1, num2):
+def promedio (num1, num2) :
     resultado = num1 / num2
     return resultado
 
-promedio (acumulador_suma, len(arreglos))
-print(f"El promedio del arreglo {arreglos} es de {promedio}")
+cantidad_arreglos = len(arreglos)
+
+print(f"El promedio del arreglo {arreglos} es de {promedio (acumulador_suma, cantidad_arreglos)}")
