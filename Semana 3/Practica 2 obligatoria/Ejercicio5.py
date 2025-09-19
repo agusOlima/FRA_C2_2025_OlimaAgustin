@@ -14,10 +14,10 @@ num_posición = 1
 for j in range(len(arrgelos)):
     if num_verificar == arrgelos[j]:
         print(f"El numero a verificar con el {num_verificar} esta en la posicisión {num_posición}")
-    elif num_verificar == arrgelos[j]:
-         num_posición = num_posición + 1
+    elif (num_verificar != arrgelos[j]):
+        num_posición = num_posición + 1  
     else:
-        print(f"No existe el numero indicado en el arreglo.")
+        print(f"El nuemero ingresado no existe en el array.")
         
 
         

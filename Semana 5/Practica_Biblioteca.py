@@ -1,8 +1,7 @@
 titulos = [""] * 20
 ejemplares = [0] * 20
-opcion = 0
 
-while opcion != 7:
+while True:
 
     print("Elegir una opción dentro del menu.")
     print("Opción (1) Cargar titulos y ejemplares")
@@ -17,11 +16,5 @@ while opcion != 7:
 
     if opcion == 1 :
         cargar_titulos_y_ejemplares(titulos, ejemplares)
-    elif opcion == 2 :
+    elif opcion == 2 :  
         mostrar_catalogo(titulos, ejemplares)
-    elif opcion == 3 :
-        
-    
-        
-
-
